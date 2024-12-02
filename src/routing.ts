@@ -10,7 +10,7 @@ export default async function callAPI(request: Request): Promise<Result> {
   if (!id) {
     return {
       success: false,
-      message: 'Bad request' 
+      message: 'Gagal Mendapatkan Informasi Akun' 
     }
   }
   try {
@@ -48,7 +48,7 @@ export default async function callAPI(request: Request): Promise<Result> {
       default:
         return {
           success: false,
-          message: 'Bad request'
+          message: 'Gagal Mendapatkan Informasi Akun'
         }
     }
   } catch (error) {
