@@ -9,10 +9,10 @@ Lihat perubahan di [commits](https://github.com/ihsangan/valid/commits/main/).
 ## Self Deploy
 Kamu bisa langsung fork aja repo ini, atau bisa tekan tombol dibawah ini (jangan lupa github secrets nya di seting)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ihsangan/valid)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mymaswayvpn/valid)
 ## Endpoint
 ```
-https://api.isan.eu.org/nickname
+https://api.boncos.me/nickname
 ```
 ## Output
 application/json; charset=utf-8 ([RFC4627](https://datatracker.ietf.org/doc/html/rfc4627))
@@ -31,25 +31,25 @@ Berikut adalah daftar game yang didukung oleh API ini.
 ### Aether Gazer
 GET `/ag?id=PLAYER_ID`
 
-**Contoh:** [53687200000](https://api.isan.eu.org/nickname/ag?id=53687200000)
+**Contoh:** [53687200000](https://api.boncos.me/nickname/ag?id=53687200000)
 ### Genshin Impact (America, Asia, Europe, SAR) [CENSORED]
 GET `/gi?id=PLAYER_ID`
 
-**Contoh:** [600000000](https://api.isan.eu.org/nickname/gi?id=600000000)
+**Contoh:** [600000000](https://api.boncos.me/nickname/gi?id=600000000)
 ### Honkai Impact 3rd [CENSORED]
 GET `/hi?id=PLAYER_ID`
 
-**Contoh:** [10000001](https://api.isan.eu.org/nickname/hi?id=10000001)
+**Contoh:** [10000001](https://api.boncos.me/nickname/hi?id=10000001)
 ### Honkai: Star Rail (America, Asia, Europe, SAR) [CENSORED]
 GET `/hsr?id=PLAYER_ID`
 
-**Contoh:** [600000001](https://api.isan.eu.org/nickname/hsr?id=600000001)
+**Contoh:** [600000001](https://api.boncos.me/nickname/hsr?id=600000001)
 ### LifeAfter
 GET `/la?id=PLAYER_ID&server=SERVER_NAME`
 
-SERVER_NAME bersifat case-insensitive, untuk daftarnya ada [di sini](https://github.com/ihsangan/valid/blob/main/src/router/la.ts).
+SERVER_NAME bersifat case-insensitive, untuk daftarnya ada [di sini](https://github.com/mymaswayvpn/valid/blob/main/src/router/la.ts).
 
-**Contoh:** [?id=22512309&server=milestone](https://api.isan.eu.org/nickname/la?id=22512309&server=milestone)
+**Contoh:** [?id=22512309&server=milestone]([https://api.isan.eu.org/nickname](https://api.boncos./la?id=22512309&server=milestone)
 ### Point Blank
 GET `/pb?id=ZEPETTO_ID`
 
