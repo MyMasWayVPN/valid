@@ -9,7 +9,7 @@ export default async function ml(id: number, zone: number): Promise<Result> {
   })
   const data = await response.json()
   return {
-    success: '200',
+    success: true,
     game: 'Mobile Legends: Bang Bang',
     id,
     server: zone,
